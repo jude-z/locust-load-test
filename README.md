@@ -26,7 +26,8 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-locust -f <script_path>
+locust -f gathering-server-script/locust.py
+locust -f trip-server-script/locust.py
 ```
 
 Then open `http://localhost:8089` in your browser to configure and start the test.
